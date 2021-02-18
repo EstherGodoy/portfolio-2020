@@ -1,9 +1,14 @@
-import React from "react";
+import Container from "./nav";
+import Nav from "./nav";
+import './header.scss'
 
 const Header = (props) => {
   return (
-    <header className="navbar-brand bg-gradient navbar-container">
-      this is the header
+    <header>
+      <Container>
+        <div>icon</div>
+        <Nav/>
+      </Container>
     </header>
   );
 };
