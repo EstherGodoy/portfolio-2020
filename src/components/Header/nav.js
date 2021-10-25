@@ -1,4 +1,7 @@
 import './nav.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Nav = (props) => {
   return (
@@ -7,8 +10,8 @@ const Nav = (props) => {
       <li>Work</li>
       <li>About</li>
       <li>Contact</li>
-      <li>GitHub</li>
-      <li>LinkedIn</li>
+      <li><FontAwesomeIcon icon={faGithub} /></li>
+      <li><FontAwesomeIcon icon={faLinkedin} /></li>
     </ul>
   );
 };

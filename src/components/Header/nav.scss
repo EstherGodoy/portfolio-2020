@@ -10,6 +10,11 @@ ul {
 
   li {
     font-size: 18px;
+    font-family: arial;
     padding: 0 15px 0 0;
+
+    .svg-inline--fa {
+      font-size: 30px;
+    }
   }
 }

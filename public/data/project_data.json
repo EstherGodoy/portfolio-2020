@@ -1,0 +1,14 @@
+{
+  "0": {
+      "title": "project 1",
+      "tagline": "project 1 tagline"
+  },
+  "1": {
+    "title": "project 2",
+    "tagline": "project 2 tagline"
+  },
+  "2": {
+    "title": "project 3",
+    "tagline": "project 3 tagline"
+  }
+}

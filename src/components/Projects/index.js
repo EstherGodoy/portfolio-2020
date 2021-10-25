@@ -1,6 +1,14 @@
 const Projects = (props) => {
+  console.log('props', props)
   return (
-    <div>this are the projects</div>
+    <section>
+      <div>this are the projects</div>
+      <ul>
+        {props.projects.map(function(project, index){
+            return <li key={index}> {project.name} as the {project.tagline} </li>
+        })}
+      </ul>
+    </section>
   );
 };
 

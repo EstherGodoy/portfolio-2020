@@ -1,0 +1,27 @@
+.hero {
+    background: #4c32d6;
+    color: #ddf4f8;
+
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      width: 100%;
+      font-family: arial;
+      font-size: 46px;
+      margin: 0 0 30px 0;
+    }
+
+    p {
+      width: 85%;
+      margin: 0 0 20px 0;
+      font-family: arial;
+      line-height: 22px;
+    }
+
+    .button-container {
+      width: 100%;
+    }
+}

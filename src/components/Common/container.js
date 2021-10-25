@@ -2,7 +2,7 @@ import './container.scss'
 
 const Container = (props) => {
   return (
-    <div>{this.props.children}</div>
+    <div className="container">{props.children}</div>
   );
 };
 
