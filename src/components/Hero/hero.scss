@@ -1,6 +1,7 @@
 .hero {
     background: #4c32d6;
     color: #ddf4f8;
+    padding-bottom: 25px;
 
     .container {
       flex-direction: row;
@@ -22,6 +23,7 @@
     }
 
     .button-container {
+      margin-top: 22px;
       width: 100%;
     }
 }
