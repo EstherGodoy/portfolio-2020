@@ -1,11 +1,19 @@
+import {useEffect, useState} from "react"
+
 const Projects = (props) => {
-  console.log('props', props)
+  const [test, setTest] = useState(props.data.projects);
+
+useEffect(() => {
+    // Update the document title using the browser API
+    console.log('props.data.projects effec used', props.data.projects);
+    setTest(props.data.projects)
+  });
   return (
     <section>
       <div>this are the projects</div>
       <ul>
-        {props.projects.map(function(project, index){
-            return <li key={index}> {project.name} as the {project.tagline} </li>
+        {test && test.forEach(item => {
+            return <li> test {item.name} as the {item.tagline} </li>
         })}
       </ul>
     </section>

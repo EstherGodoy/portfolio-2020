@@ -1,14 +1,31 @@
 {
-  "0": {
-      "title": "project 1",
-      "tagline": "project 1 tagline"
-  },
-  "1": {
-    "title": "project 2",
-    "tagline": "project 2 tagline"
-  },
-  "2": {
-    "title": "project 3",
-    "tagline": "project 3 tagline"
-  }
+  "projects": [
+    {
+        "title": "project 1",
+        "tagline": "project 1 tagline"
+    },
+    {
+      "title": "project 2",
+      "tagline": "project 2 tagline"
+    },
+    {
+      "title": "project 3",
+      "tagline": "project 3 tagline"
+    }
+  ],
+  "testimonials" : [
+    {
+        "author": "John Doe",
+        "text": "testimonial text 1"
+    },
+    {
+      "author": "Jane Doe",
+      "text": "testimonial text 2"
+    },
+    {
+      "author": "Joe Doe",
+      "text": "testimonial text 3"
+    }
+  ]
+
 }

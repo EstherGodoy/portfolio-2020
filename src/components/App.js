@@ -18,16 +18,20 @@ const App = (props) => {
     })
     .then(response => response.json())
     .then((json) => {
-      const projectsArr = [];
-      Object.values(json).forEach(val => projectsArr.push(val));
-      setData(projectsArr);
+      let tempData = {};
+
+      Object.keys(json).forEach(key  => {
+        tempData[key] = json[key];
+      });
+
+      setData(tempData);
     });
   }, []);
   return (
     <div className="app-container">
       <Header/>
       <Hero/>
-      <Projects projects={data}/>
+      <Projects data={data}/>
       <Testimonials/>
       <Footer/>
     </div>
